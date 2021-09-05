@@ -1,0 +1,110 @@
+body{
+    font: sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4;
+    width: 100%;
+    background: #eeeeee;
+    
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: teal;
+}
+
+.navbar{
+    list-style: none;
+    width: 60%;
+    left: 40%;
+}
+
+
+.navitem{
+    display: inline;
+    margin-right: 0em;
+
+}
+.container{
+    display: grid;
+    justify-content: center;
+    padding-top: 20rem;
+
+}
+
+.container h3{
+    font-size: 1.3rem;
+}
+
+.container #email{
+    width: 300px;
+    margin: 0 2rem;
+}
+.container #submit{
+    width: 200px;
+    justify-content: center;
+    margin-left: 5rem;
+    background-color: yellow;
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 2rem 3rem;
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+}
+
+i{
+    color: orangered;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+#products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5rem;
+    width: 70%;
+    margin: 5rem auto;
+}
+
+.product{
+    
+    text-align: center;
+    border: 1px solid black;
+    margin: 1rem;
+    justify-content: center;
+
+}
+
+.product li{
+    list-style: none;
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+
+.product h3{
+    background-color: grey;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+@media (max-width: 600px){
+    #pricing{
+        display: flex;
+    }
+}
